@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+h1 {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+strong {
+  color: green;
+}
+img {
+  border: 10px dashed pink;
+}
+html {
+  background: url('../images/adventure.gif');
+  background-size: cover;
+  font-family: 'inconsolata', Arial;
+  text-align: center;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.7s all;
+  -webkit-transform: scale(2);
+}
+
+a:hover {
+  color: blue;
+  background-color: green;
+
+}
+img {
+  border-radius: 10%;
+  box-shadow: 10px 20px 10px #f00f00
+}
